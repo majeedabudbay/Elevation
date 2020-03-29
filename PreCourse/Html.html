@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+
+<form action="/action_page.php">
+  <label for="input">Text input:</label><br>
+  <input type="text" id="input" name="input" onchange="inputChange()"><br>
+</form>
+
+<h1 id="header" onchange="colorChange()">document.getElementById("input").value</h1>
+
+
+<button onclick="message()">Click me</button>
+
+
+<script>
+function message(){
+	alert(document.getElementById("input").value);
+}
+
+function inputChange(){
+var inputValue = document.getElementById("input").value;
+
+if(inputValue.length < 10){
+document.getElementById("header").style.color = "black";
+}else{
+document.getElementById("header").style.color = "red";
+}
+
+
+document.getElementById("header").innerHTML = document.getElementById("input").value;
+}
+
+
+</script>
+
+
+
+</body>
+</html>

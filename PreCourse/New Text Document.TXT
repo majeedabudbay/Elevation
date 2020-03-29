@@ -1,0 +1,23 @@
+var a = [4, 6, 8, 3, 4, 7, 8, 2, 4];
+
+var dic = {};
+
+var i = 0;
+for(i; i < a.length ; i++){
+  if(a[i] in dic){
+    dic[a[i]]+=1;
+  }else{
+    dic[a[i]] = 0;
+  }
+}
+
+var m = 0;
+for(i in dic){
+  if(dic[i] > m){
+    m = i
+  }
+}
+
+console.log(m);
+
+
