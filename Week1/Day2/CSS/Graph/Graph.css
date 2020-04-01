@@ -1,0 +1,52 @@
+#main-box {
+
+    height: 200px;
+    width: 300px;
+    background-color: purple;
+}
+
+.column {
+    background-color: gray;
+    position: absolute;
+    margin-bottom: 100px;
+    width: 15px;
+    bottom: 350px;
+    
+}
+
+#column1 { 
+    height: 20px;
+    margin-left: 10px;
+}
+
+#column2 {
+    height: 50px;
+    margin-left: 50px;
+}
+
+#column3 {
+    height: 80px;
+    margin-left: 90px;
+}
+
+#column4 {
+    height: 70px;
+    margin-left: 130px;
+}
+
+#column5 {
+    height: 40px;
+    margin-left: 170px;
+}
+
+#column6 {
+    height: 30px;
+    margin-left: 210px;
+}
+
+#time {
+    left: 240px;
+    margin-left: 240px;
+    margin-top: 150px;
+}
+

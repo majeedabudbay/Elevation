@@ -1,0 +1,24 @@
+#main-box {
+    background-color: blue;
+    width: 500px;
+    height: 500px;
+}
+
+.inner-box {
+    background-color: red;
+    position: absolute;
+}
+
+#first {
+    height: 500px;
+    width: 50px;
+    margin-left: 50px;
+}
+
+#second {
+    width: 500px;
+    height: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    
+}
